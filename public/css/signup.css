@@ -1,0 +1,29 @@
+
+body{
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.main{
+  padding-top: 5%;
+}
+
+  .image{
+    display: block;
+    text-align: center;
+  }
+
+  .form{
+  display: inline-block;
+  padding: 1rem;
+  }
+
+  .form .form-control{
+    margin-top: 1rem;
+  }
+
+@media screen and (max-width: 1025px){
+.main{
+  padding-top: 30%;
+}
+}
